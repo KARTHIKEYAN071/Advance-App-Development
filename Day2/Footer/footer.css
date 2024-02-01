@@ -1,0 +1,69 @@
+.footerbody{
+    width: 100%;
+    height: 7.6cm;
+    background-color: #26272b;
+    color:gray;
+    position: absolute;
+}
+.abt{
+    width: 80%;
+    height: 6cm;
+    /* background-color: aqua; */
+    margin-left: 10%;
+    border-bottom: 3px solid gray;
+    display: flex;
+    margin-top: .5cm;
+    position: relative;
+}
+.abtcnt{
+    width: 50%;
+    height: 5.5cm;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* background-color: blanchedalmond; */
+
+}
+.abtcnt p{
+    font-size: 20px;
+    
+}
+.quick{
+    margin-left: 2cm;
+    font-size: 18px;
+}
+.term{
+    margin-left: 2cm;
+    font-size: 18px;
+
+}
+.quick li{
+    /* border-bottom: 1px solid gray; */
+    /* text-align: center; */
+    list-style-type: none;
+    margin-top:.15cm;
+}
+.term li{
+
+    /* border-bottom: 1px solid gray; */
+    /* text-align: center; */
+    list-style-type: none;
+    margin-top:.15cm;
+
+}
+.quick ul{
+    margin-top: -0cm;
+}
+.footerbody h4,.footerbody h5
+{
+    color: white;
+}
+.copy
+{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: .3cm;
+    display: flex;
+}
+.copy .iconn{
+    margin-left: 30%;
+    margin-top: -.3cm;
+}
