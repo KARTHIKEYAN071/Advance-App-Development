@@ -1,0 +1,225 @@
+
+.slidebody{
+  margin-top: 1.3cm;
+  position: relative;
+  width: 100%;
+  max-height: 1000cm;
+  height: 82vh;
+  
+  /* background-color: aqua; */
+  /* background: transparent; */
+  background-color:rgb(160, 160, 160) ;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.containerr{
+  /* overflow-y:hidden; */
+  /* margin-top: -8cm; */
+  position: relative;
+}
+
+.containerr{
+  width: 100%;
+  /* margin-top: 3%; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 50vh;
+}
+
+.containerr .image{
+  display: none;
+}
+
+.containerr #prev{  
+  position: absolute;
+  top: 43%;
+  left: 0;
+  cursor: pointer;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.containerr #next{
+  position: absolute;
+  top: 43%;
+  right: 0;
+  cursor: pointer;
+  padding: 16px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1rem;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+.containerr button
+{
+  margin-top: 0%;
+  background: transparent;
+  border: none;
+  position: relative;
+}
+.containerr #prev:hover, .containerr #next:hover {
+  background: rgba(0, 0, 0, 0.5);
+} 
+
+.containerr .dots{
+  text-align: center;
+  margin-top: 2%;
+  background: transparent;
+}
+
+.containerr .dot{
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background:transparent;
+  border-radius: 50%;
+  transition: background-color 0.6s ease;
+}
+
+.containerr .active{
+  background-color: #717171;
+} 
+
+.containerr .fade{
+  -webkit-animation-name:fade;
+  -webkit-animation-duration: 1s;
+  animation-name: fade;
+  animation-duration: 1s;
+}
+
+@-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+} 
+
+@media(max-width:768px){
+    .container{
+        width: 100%;
+    }
+}
+
+
+
+.containerr .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50vh;
+  background-color: rgb(160, 160, 160,.4);
+  color: white;
+  /* background-color: rgba(219, 12, 12, 0.4); */
+  /* margin-top: 8.9%; */
+  scroll-margin:-1cm;
+  margin-top: -.7cm;
+}
+.containerr .overlay h1{
+  color:black;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.5;
+    overflow: hidden;
+    white-space: nowrap;
+    text-shadow: 4px 4px 8px rgb(71, 78, 90);
+}
+.overlay h2{
+  color:black;
+    /* text-align: center; */
+    font-size: 25px;
+    font-weight: bold;
+    /* font-style: italic; */
+    /* text-decoration: underline; */
+    letter-spacing: 2px;
+    line-height: 1.5;
+    text-shadow: 4px 4px 8px rgb(71, 78, 90);
+    text-transform: uppercase;
+    overflow: hidden;
+    white-space: nowrap;
+
+}
+.overlay h1
+{
+  color:black;
+  line-height: 1.5;
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: xxx-large;
+}
+.bar{
+  width: 85%;
+  height: 2cm;
+  align-items: center;
+  background-color: white;
+  border-radius: 55px;
+  /* box-shadow: 60px 60px 800px 100px rgb(128, 128, 128); */
+  position: relative;
+  margin-top: 2cm;
+  margin-left: 2.8cm;
+  display: flex;
+  /* position: absolute; */
+
+}
+.bara{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size:x-large;
+  border: none;
+  height: 1.2cm;
+}
+.bara:focus{
+  outline: none;
+}
+.bara2{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size:x-large;
+  border: none;
+  height: 1.2cm;
+  /* background-color: #717171; */
+  margin-top: -30cm;
+  position: relative;
+}
+.bara2:focus{
+  outline: none;
+}
+.barbtn{
+  font-size: 20px;
+  color: #fff;
+  background-color: blue;
+  border-radius: 50px;
+  font-family: 'Times New Roman', Times, serif;
+  padding: .4cm;
+  width: 3cm;
+  text-align: center;
+  margin-left: -2cm;
+  margin-right: 1cm;
+}
+.opp{
+  background-color: grey;
+  text-decoration: none;
+  list-style-type:none ;
+  position: relative;
+  margin-top: -.3cm;
+  /* margin-left: -.2cm;  */
+  width: 7cm;
+  font-family:'Courier New', Courier, monospace;
+  font-weight: 800;
+  font-size: 20px;
+  padding: 10px 3px 10px 3px;
+  border-top: 2px solid;
+  text-align: center;
+}
