@@ -1,0 +1,112 @@
+*{
+  
+    font-family: cursive;
+}
+*::-webkit-scrollbar{
+  display: none;
+}
+.form
+{
+    margin-left: 50%;
+    background-color:#fefefe;
+    width:40%;
+    margin-top: 1cm;
+    border-left: none;
+    position: fixed;
+    border-right: 2px solid;
+    border-bottom: 2px solid;
+    
+  }
+  
+  .main{
+    background-image: url(slide4.jpg);
+    border-bottom: 2px solid;
+    background-position: center;
+    background-size: cover;
+    width: 20.5cm;
+    height: 16cm;
+    position: fixed;
+    margin-left: 3.7cm;
+    margin-top: 1cm;
+    
+  }
+  #bx{
+    overflow: scroll;
+  }
+  #bx::-webkit-scrollbar{
+    display: none;
+  }
+  .pin{
+    width: 2cm;
+    height: 2cm;
+    margin-left: 0cm;
+    margin-top: -1cm;
+    position:relative;
+  }
+  body
+  {
+
+    overflow: hidden;
+    /* position: fixed; */
+  }
+  .mmm{
+    margin-top: -1cm;
+    position: relative;
+    height: 119vh;
+  }
+  .mmm::-webkit-scrollbar-button,
+  .mmm::-webkit-scrollbar{
+    display: none;
+  }
+#named-select{
+  margin-top: 13px;
+  margin-left: -.5cm;
+  outline: none;
+  width: 12.5cm;
+  height: 1.5cm;
+  font-size: 18px;
+  background: transparent;
+  border: .5px solid rgba(72, 72, 78, 0.5);
+  border-radius: 4px;
+  text-align: left;
+}
+.op{
+  list-style: none;
+  margin-top: -.3cm;
+  width: 12.5cm;
+  padding: .3cm .3cm .3cm .3cm;
+  padding-bottom: .3cm;
+  border-top:.5px solid rgba(72, 72, 78, 0.5);
+  border-left:.5px solid rgba(72, 72, 78, 0.5);
+  border-right: .5px solid rgba(72, 72, 78, 0.5);
+  border-bottom: .5px solid rgba(72, 72, 78, 0.5);
+  margin-left: -0cm;
+  border-bottom: .5px solid rgba(72, 72, 78, 0.5);
+  border-bottom-right-radius:4px ;
+  border-bottom-left-radius: 4px;
+  background-color:#cddbe4;
+  
+
+}
+.op:hover{
+  color: white;
+  background-color: gray;
+}
+.s {
+  font-size: 40px;
+  font-family: cursive;
+
+}
+#radio-buttons
+{
+  margin-top: 13px;
+  margin-left: -.5cm;
+  outline: none;
+  width: 12.5cm;
+  height: 1.9cm;
+  font-size: 20px;
+  background: transparent;
+  border: .5px solid rgba(72, 72, 78, 0.5);
+  border-radius: 4px;
+  display: flex;
+}
