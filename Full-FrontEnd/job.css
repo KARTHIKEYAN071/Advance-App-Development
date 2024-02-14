@@ -1,0 +1,440 @@
+.job
+{
+  width: 100%;
+  background-image:linear-gradient(#e8e8e8,#e8e8e8);
+  /* background-color: chartreuse; */
+  /* height: 55vh; */
+  height: 110vh;
+    /* overflow:scroll;  */
+  color: black;
+  font-family:sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  /* position: absolute; */
+  margin-top: -2cm;
+}
+.jobbox{
+  width: 5cm;
+  height: 1.5cm;
+  background-color:white;
+  /* box-shadow: 1px 1px 1px 1px; */
+  border: 1px solid gray;
+  margin-left: 1.5cm;
+  border-radius: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  margin-top: .3cm;
+}
+.jobsector{
+  color:black;
+  font-size: 25px;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.5;
+  overflow: hidden;
+  white-space: nowrap;
+  text-shadow: 4px 4px 8px rgb(71, 78, 90);
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.slidebodyy{
+  margin-top: .5cm;
+  width: 100%;
+  /* max-height: 1000cm; */
+  height: 55vh;
+  /* background-color: aqua; */
+  background: transparent;
+  /* background-color:#f4f2ff ; */
+  overflow-y: hidden;
+  overflow-x: hidden;
+  /* position: absolute; */
+  /* margin-top: -9cm; */
+  /* overflow: auto; */
+}
+.boxxer
+{
+  /* position: absolute; */
+  width: 100%;
+  height: 100%;
+  /* background-color: aqua; */
+  /* position: relative; */
+  display: flex;
+  margin-top: 1%;
+  margin-left: 2.7%;
+}
+.box1{
+  /* position: relative; */
+  background-color: white;
+  border-radius: 10px;
+  margin-right: 2cm;
+  box-shadow: 2px 2px 2px 2px gray;
+  /* position: relative; */
+}
+/*/////////////////////////////////////////////////////////////////////////////////*/
+.containerr2{
+  /* overflow-y:hidden; */
+  /* margin-top: -8cm; */
+  position: relative;
+}
+
+.containerr2{
+  width: 100%;
+  /* margin-top: 3%; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 50vh;
+}
+
+.containerr2 .image2{
+  display: none;
+}
+
+.containerr2 #prev2{  
+  position: absolute;
+  top: 43%;
+  left: 0;
+  cursor: pointer;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.containerr2 #next2{
+  position: absolute;
+  top: 43%;
+  right: 0;
+  cursor: pointer;
+  padding: 16px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1rem;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+.containerr2 button
+{
+  margin-top: 0%;
+  background: transparent;
+  border: none;
+  position: relative;
+}
+.containerr2 #prev2:hover, .containerr2 #next2:hover {
+  background: rgba(0, 0, 0, 0.5);
+} 
+
+.containerr2 .dots2{
+  text-align: center;
+  margin-top: 2%;
+  background: transparent;
+}
+
+.containerr2 .dot2{
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background:transparent;
+  border-radius: 50%;
+  transition: background-color 0.6s ease;
+}
+
+.containerr2 .active2{
+  background-color: #717171;
+} 
+
+.containerr2 .fade2{
+  -webkit-animation-name:fade;
+  -webkit-animation-duration: 1s;
+  animation-name: fade;
+  animation-duration: 1s;
+}
+
+@-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+} 
+
+@media(max-width:768px){
+    .container{
+        width: 100%;
+    }
+}
+
+
+
+.containerr2 .overlay2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50vh;
+  background-color: rgb(160, 160, 160,.4);
+  color: white;
+  /* background-color: rgba(219, 12, 12, 0.4); */
+  /* margin-top: 8.9%; */
+  scroll-margin:-1cm;
+  margin-top: -.7cm;
+
+}
+.containerr2 .overlay2 h1{
+  color:black;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.5;
+    overflow: hidden;
+    white-space: nowrap;
+    text-shadow: 4px 4px 8px rgb(71, 78, 90);
+}
+.overlay2 h2{
+  color:black;
+    /* text-align: center; */
+    font-size: 25px;
+    font-weight: bold;
+    /* font-style: italic; */
+    /* text-decoration: underline; */
+    letter-spacing: 2px;
+    line-height: 1.5;
+    text-shadow: 4px 4px 8px rgb(71, 78, 90);
+    text-transform: uppercase;
+    overflow: hidden;
+    white-space: nowrap;
+
+}
+.overlay2 h1
+{
+  color:black;
+  line-height: 1.5;
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: xxx-large;
+}
+.box1 .boxhead{
+  width: 95%;
+  height: .7cm;
+  margin-left: 2.5%;
+  /* background-color: aqua; */
+  position: relative;
+  color:gray;
+  margin-top: 1%;
+  display: flex;
+  font-size: 14px;
+}
+.box1 .boxbody{
+  width: 95%;
+  height: 5cm;
+  margin-left: 2.5%;
+  /* background-color: aqua; */
+  position: relative;
+  color:gray;
+  margin-top: 1%;
+  /* display: flex; */
+  font-size: 14px;
+}
+.box1 .boxfoot{
+  width: 95%;
+  height: 1cm;
+  margin-left: 2.5%;
+  /* background-color:blueviolet; */
+  position: relative;
+  color:gray;
+  /* margin-top: 1%; */
+  /* display: flex; */
+  font-size: 14px;
+}
+/*/////////////////////////////////////////////////////////////////////////////*/
+
+.containerr3{
+  /* overflow-y:hidden; */
+  /* margin-top: -8cm; */
+  position: relative;
+}
+
+.containerr3{
+  width: 100%;
+  /* margin-top: 3%; */
+  display: flex;
+  justify-content: center;
+  background: transparent;
+  align-items: center;
+  flex-direction: column;
+  height: 50vh;
+}
+
+.containerr3 .image3{
+  display: none;
+}
+
+.containerr3 #prev3{  
+  position: absolute;
+  top: 43%;
+  left: 0;
+  cursor: pointer;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.containerr3 #next3{
+  position: absolute;
+  top: 43%;
+  right: 0;
+  cursor: pointer;
+  padding: 16px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1rem;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+.containerr3 button
+{
+  margin-top: 0%;
+  background: transparent;
+  border: none;
+  position: relative;
+}
+.containerr3 #prev3:hover, .containerr3 #next3:hover {
+  background: rgba(0, 0, 0, 0.5);
+} 
+
+.containerr3 .dots3{
+  text-align: center;
+  margin-top: 2%;
+  background: transparent;
+}
+
+.containerr3 .dot3{
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background:transparent;
+  border-radius: 50%;
+  transition: background-color 0.6s ease;
+}
+
+.containerr3 .active3{
+  background-color: #717171;
+} 
+
+.containerr3 .fade3{
+  -webkit-animation-name:fade;
+  -webkit-animation-duration: 1s;
+  animation-name: fade;
+  animation-duration: 1s;
+}
+
+@-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+} 
+
+@media(max-width:768px){
+    .container{
+        width: 100%;
+    }
+}
+
+
+
+.containerr3 .overlay3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50vh;
+  background-color: rgb(160, 160, 160,.4);
+  color: white;
+  /* background-color: rgba(219, 12, 12, 0.4); */
+  /* margin-top: 8.9%; */
+  scroll-margin:-1cm;
+  margin-top: -.7cm;
+}
+.containerr3 .overlay3 h1{
+  color:black;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.5;
+    overflow: hidden;
+    white-space: nowrap;
+    text-shadow: 4px 4px 8px rgb(71, 78, 90);
+}
+.overlay3 h2{
+  color:black;
+    /* text-align: center; */
+    font-size: 25px;
+    font-weight: bold;
+    /* font-style: italic; */
+    /* text-decoration: underline; */
+    letter-spacing: 2px;
+    line-height: 1.5;
+    text-shadow: 4px 4px 8px rgb(71, 78, 90);
+    text-transform: uppercase;
+    overflow: hidden;
+    white-space: nowrap;
+
+}
+.overlay3 h1
+{
+  color:black;
+  line-height: 1.5;
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: xxx-large;
+}
+.box1 .boxhead{
+  width: 95%;
+  height: .7cm;
+  margin-left: 2.5%;
+  /* background-color: aqua; */
+  position: relative;
+  color:gray;
+  margin-top: 1%;
+  display: flex;
+  font-size: 14px;
+}
+.box1 .boxbody{
+  width: 95%;
+  height: 5cm;
+  margin-left: 2.5%;
+  /* background-color: aqua; */
+  position: relative;
+  color:gray;
+  margin-top: 1%;
+  /* display: flex; */
+  font-size: 14px;
+}
+.box1 .boxfoot{
+  width: 95%;
+  height: 1cm;
+  margin-left: 2.5%;
+  /* background-color:blueviolet; */
+  position: relative;
+  color:gray;
+  /* margin-top: 1%; */
+  /* display: flex; */
+  font-size: 14px;
+}

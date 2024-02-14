@@ -1,0 +1,71 @@
+/* App.css */
+
+/* body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+} */
+
+.slideshoww {
+  overflow: hidden;
+}
+
+.slideshoww .slide-container {
+  display: flex;
+}
+
+.slideshoww .slide {
+  width: 300px;
+  height: 200px;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 24px;
+}
+
+.slideshoww .slide.active {
+  transform: translateX(0);
+}
+
+.slideshoww button {
+  padding: 10px;
+  /* margin: 0 10px; */
+  font-size: 16px;
+  cursor: pointer;
+  background-color: gray;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  position: relative;
+  
+}
+
+.slideshoww button:hover {
+  background-color: black;
+  color: white;
+}
+
+/* .ccc h1 {
+  text-align: center;
+  color:black;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  text-shadow: 4px 4px 8px rgb(71, 78, 90);
+} */
+.combox{
+  width:6cm;
+  height:2.5cm;
+  /* background-color: aqua; */
+  /* padding-top: 1cm; */
+  margin-left: 1cm;
+  border: 2px solid gray;
+  border-radius: 10px;
+  box-shadow: 2px 2px 30px 2px  gray;
+  background-color: white;
+  
+}

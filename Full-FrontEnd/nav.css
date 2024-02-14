@@ -1,0 +1,154 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.header{
+    width: 100%;
+    height: 3.3cm;
+    background-color:rgb(160, 160, 160) ;
+    position: fixed;
+}
+.leo{
+    margin-left: 1cm;
+}
+.tele{
+    margin-left: 19.5cm;
+    margin-top: -3.6cm;
+}
+.mail{
+    margin-left: 20.2cm;
+    margin-top: -.7cm;
+    /* font-family:Verdana, Geneva, Tahoma, sans-serif; */
+    
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.email{
+    margin-left: 19.2cm;
+    margin-top: -0.9cm;
+    
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.callicon{
+    margin-left: 27cm;
+    margin-top: -1.3cm;
+}
+.call{
+    margin-left: 27.7cm;
+    margin-top: -.7cm;
+    
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.num{
+    margin-left: 26.7cm;
+    margin-top: -0.9cm;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.navigation
+{
+    background-color:rgba(26, 27, 27,.4);
+    width: 73%;
+    height: 1.5cm;
+    margin-left: 14%;
+    margin-top: cm;
+    border-radius: 30px;
+
+}
+.navigation ul{
+    float:left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin-top: -.05cm;
+}
+.navigation li{
+    font-size:15px;
+    /* font-family:Verdana, Geneva, Tahoma, sans-serif;   */
+    font-weight: 900;
+}
+.navigation button{
+    margin-left: 1cm;
+    margin-top: 0cm;
+    background: transparent;
+    border: none;
+}
+.searchbar{
+    width: 380px;
+    float: left;
+    margin-left: 950px;
+    margin-top: -1.15cm;
+    color:white;
+  }
+  .srchin{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;  
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid wheat;
+    border-right: none;
+    margin-top: 13px;
+    font-size: 16px;
+    float:left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    color:white;
+    
+  }
+  .srchbtn{
+    width: 100px;
+    height: 40px;
+    background:black;
+    border: 1px solid wheat;
+    border-left: none;
+    margin-top: 13px;
+    color:white;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.srchbtn:focus{
+    outline: none;
+}
+.srchin:focus{
+    outline: none;
+}
+  .loginbtn
+  {
+      margin-left: 35.5cm;
+      margin-top: -2.6cm;
+      width: 3.6cm;
+      height: 1cm;
+      background-color: orangered;
+      box-shadow: 3px 3px black;
+      cursor: pointer;
+      border-radius: 70px;
+      padding: 8px;
+      box-shadow: 5px 5px #837d7d;
+    }
+    .loginbtn{
+    display: flex;
+    align-items: center;
+  }
+  .lock{
+    margin-top: .19cm;
+    margin-left: .3cm;
+}
+.loginbtn button {
+    background: transparent;
+    border: none;
+    color:wheat;
+    font-size: 20px;
+    margin-left: .2cm;
+    font-weight:600;
+}
+.li{
+    margin-top: .5cm;
+}
+ .header li:hover{
+    /* color:white; */
+    color:blueviolet;
+}
+.srchin::placeholder{
+    color: white;
+}

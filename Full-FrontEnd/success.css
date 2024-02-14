@@ -1,0 +1,31 @@
+.sbox{
+    width:14cm;
+    height: 5cm;
+    background-color:white;
+    align-items: center;
+    justify-content: center;
+    margin-left: 33%;
+    margin-top: 10%;
+    border-radius: 20px;
+    /* border: 1px solid rgba(0, 0, 0, 0.729); */
+    position: relative;
+    
+    
+}
+body{
+    /* background-color: black; */
+}
+.sbut{
+    width: 80%;
+    margin-left: 10%;
+    height: 1cm;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 600;
+    margin-top: .5cm;
+    background-color: rgb(50, 255, 47);
+    color:white;
+    border: none;
+    cursor: pointer;
+}

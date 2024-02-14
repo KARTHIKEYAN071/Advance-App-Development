@@ -1,0 +1,86 @@
+.Flex{
+    /* margin-left: 5cm; */
+    width: 250vh;
+    height: 100vh;
+    position: absolute;
+    background-image: url(admin3.jpg);
+    background-size: 85%;
+
+}
+.Flex .Sign-in{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:rgb(255, 247, 240);
+    justify-content: center;
+    width:300px;
+    height:400px;
+    margin-left: 7cm;
+    margin-top: 15%;
+    /* margin-top: 100px; */
+    border: none;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 60px;
+    align-items: center;
+    justify-content: center;
+   }
+   .Flex.submit-button{
+    background-color:rgb(55, 55, 252);
+    color: white;
+    font-size: 20px;
+   }
+   .Flex p{
+    display: flex;
+    flex-direction: row;
+    margin-right:70px;
+    
+}
+
+.Flex .ui{
+display: flex;
+flex-direction: row;
+margin-left: 80px;
+justify-content: center;
+align-items: center;
+
+}
+.Flex .img-back{
+    border:none;
+    border: 3px;
+    height:500px;
+    width:700px;
+    margin-top: 100px;
+}
+.Flex .img-back1{
+    height:100px;
+    width:100px;
+}
+.Flex .Signup-button{
+    width:500px;
+    height:500px;
+    margin-top: 100px;
+    margin-left: 300px;
+    background-color: rgb(218, 34, 34);
+    border-radius: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: none;
+   
+}
+.Flex h1{
+    color:rgb(255, 240, 240);
+    line-height: 20px;
+    margin-top: 125px;
+
+    margin-left: 60px;
+}
+.Flex .img-back3{
+    margin-left: 100px;
+    width: 150px;
+    height:150px;
+}
+.Flex .img-back3:hover{
+    opacity: 0.6;
+}

@@ -1,0 +1,35 @@
+/* FlipCard.css */
+.flip-card {
+    perspective: 1000px;
+    width: 100%;
+    height: 100vh;
+  }
+  
+  .flip-card-inner {
+    /* width: 100%;
+    height: 100%; */
+    transform-style: preserve-3d;
+    transition: transform 2s;
+}
+
+.flip-card.flipped .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-card-back {
+    position: relative;
+    backface-visibility: hidden;
+    margin-top: -6cm;
+    
+}
+
+.flip-card-front {
+      margin-top: 6cm;
+    /* Customize styles for the front side (Login Page) */
+  }
+  
+  .flip-card-back {
+    /* Customize styles for the back side (Signup Page) */
+    transform: rotateY(540deg);
+  }
+  
